@@ -1,0 +1,28 @@
+# Apache License
+# Version 2.0, January 2004
+# http://www.apache.org/licenses/
+
+# Copyright 2025 emanoyhl and emanoyhl.net find me at github.com/emanoyhl 
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import random
+
+def generate_dummy_data():
+    return {
+        'failed_logins': random.randint(0, 100),
+        'detected_threats': random.randint(0, 50),
+        'successful_logins': random.randint(50, 150),
+        'malware_detected': random.randint(0, 20),
+        'phishing_attempts': random.randint(0, 30),
+    }
